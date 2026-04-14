@@ -2,12 +2,12 @@
 @import "default";
 
 section {
-    font-family: "Axiforma", Arial, sans-serif;
-    color: #000000;
-    font-size: 24pt;
-    line-height: 1.6;
-    background-color: white;
-    padding: 50px;
+	font-family: "Axiforma", Arial, sans-serif;
+	color: #000000;
+	font-size: 24pt;
+	line-height: 1.6;
+	background-color: white;
+	padding: 50px;
 }
 
 h1,
@@ -16,69 +16,75 @@ h3,
 h4,
 h5,
 h6 {
-    color: #6ec8ff;
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-weight: bold;
+	color: #6ec8ff;
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 h1 {
-    font-size: 40pt;
-    border-bottom: 2px solid #cccccc;
-    padding-bottom: 10px;
+	font-size: 40pt;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 10px;
 }
 
 h2 {
-    font-size: 32pt;
+	font-size: 32pt;
 }
 
 h3 {
-    font-size: 28pt;
+	font-size: 28pt;
 }
 
 p {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 a {
-    color: #fa423a;
-    text-decoration: none;
+	color: #fa423a;
+	text-decoration: none;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    font-size: 20pt;
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	font-size: 20pt;
 }
 
 th,
 td {
-    border: 1px solid #cccccc;
-    padding: 12px;
-    text-align: left;
+	border: 1px solid #cccccc;
+	padding: 12px;
+	text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
-    font-weight: bold;
+	background-color: #f2f2f2;
+	font-weight: bold;
 }
 
 pre,
 code {
-    font-family: "JetBrains Mono", Courier, monospace;
-    background-color: #fafafb;
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
+	font-family: "JetBrains Mono", Courier, monospace;
+	background-color: #fafafb;
+	border: 1px solid #e9ecef;
+	border-radius: 8px;
 }
 
 code {
-    padding: 4px 8px;
-    font-size: 90%;
+	padding: 4px 8px;
+	font-size: 90%;
 }
 
 pre {
-    padding: 20px;
-    overflow-x: auto;
-    font-size: 18pt;
+	padding: 20px;
+	overflow-x: auto;
+	font-size: 18pt;
+}
+
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 20px;
 }
