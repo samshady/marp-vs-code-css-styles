@@ -11,11 +11,16 @@ section {
 }
 
 section::after {
-	content: url("./Cargobeamer_Logo.png");
+	content: ""; /* Empty content to generate the box */
 	position: absolute;
 	top: 30px;
 	right: 30px;
 	width: 150px;
+	height: 80px; /* Adjust this height based on your logo's aspect ratio */
+	background-image: url("./Cargobeamer_Logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top right;
 }
 
 h1,
