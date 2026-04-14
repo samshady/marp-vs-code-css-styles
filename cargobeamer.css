@@ -8,19 +8,12 @@ section {
 	line-height: 1.6;
 	background-color: white;
 	padding: 50px;
-}
 
-section::after {
-	content: ""; /* Empty content to generate the box */
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	width: 150px;
-	height: 80px; /* Adjust this height based on your logo's aspect ratio */
+	/* Add the logo directly to the section's background */
 	background-image: url("https://raw.githubusercontent.com/samshady/marp-vs-code-css-styles/master/Cargobeamer_Logo.png");
-	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: 30px 30px; /* 30px from left, 30px from top */
+	background-size: 150px auto;
 }
 
 h1,
@@ -29,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: red;
+	color: #6ec8ff;
 	margin-top: 0;
 	margin-bottom: 10px;
 	font-weight: bold;
