@@ -8,6 +8,7 @@ section {
   line-height: 1.4;
   background-color: white;
   padding: 50px;
+  overflow: hidden;
 }
 
 header,
